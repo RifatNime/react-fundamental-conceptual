@@ -5,6 +5,7 @@ import "./SingleProduct.css";
 
 const SingleProduct = (props) => {
   console.log(props.product);
+  console.log(props.key);
   const { setCartCount } = props;
   return (
     <div
